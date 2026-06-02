@@ -9,4 +9,4 @@ source .venv/bin/activate  # macOS/Linux
 .venv\Scripts\activate     # Windows
 
 # 必要モジュールをインストール
-pip install streamlit
+pip install streamlit pandas
