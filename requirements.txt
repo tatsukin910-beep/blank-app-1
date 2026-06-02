@@ -1,1 +1,12 @@
 streamlit
+# プロジェクトをクローン
+git clone https://github.com/tatsukin910-beep/blank-app-1.git
+cd blank-app-1
+
+# 仮想環境の作成と有効化
+python -m venv .venv
+source .venv/bin/activate  # macOS/Linux
+.venv\Scripts\activate     # Windows
+
+# 必要モジュールをインストール
+pip install streamlit
